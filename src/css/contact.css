@@ -4,29 +4,29 @@
     --box-color: #ffffff;
 }
 
-.cta-container {
+.about__contact {
     padding: 30px;
     background-color: var(--box-color);
     border-radius: 10px;
 }
 
-.cta-container form .user-details {
+.about__contact form .about__user-details {
     display: flex;
     flex-direction: column;
 }
 
-.input-box {
+.about__input-box {
     margin: 10px 0;
 }
 
-.input-box label {
+.about__input-box label {
     display: block;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-.input-box input,
-.input-box textarea {
+.about__input-box input,
+.about__input-box textarea {
     width: 100%;
     padding-left: 10px;
     font-size: 18px;
@@ -36,21 +36,21 @@
     transition: all 0.2s ease;
 }
 
-.input-box input {
+.about__input-box input {
     height: 40px;
     border-radius: 10px;
 }
 
-.input-box textarea {
+.about__input-box textarea {
     height: 150px;
     padding-top: 10px;
 }
 
-.button {
+.button-contact {
     margin-top: 50px;
 }
 
-.button .submit {
+.button-contact .submit {
     width: 100%;
     padding: 10px;
     font-size: 18px;
@@ -61,38 +61,38 @@
     cursor: pointer;
 }
 
-.input-box input:focus,
-.input-box textarea:focus {
+.about__input-box input:focus,
+.about__input-box textarea:focus {
     outline: none;
-    box-shadow: 0 1px 5px rgba(255, 199, 44, 0.815);
+    box-shadow: 0 1px 10px rgba(255, 199, 44, 0.815);
 }
 
-.button .submit:focus-within {
+.button-contact .submit:focus-within {
     color: var(--primary-color);
     background-color: var(--box-color);
     border: 2px solid var(--primary-color);
 }
 
 @media only screen and (min-width: 992px) {
-    .input-box input,
-    .input-box textarea {
+    .about__input-box input,
+    .about__input-box textarea {
         font-size: 20px;
     }
     
-    .input-box input {
+    .about__input-box input {
         height: 50px;
     }
 
-    .input-box textarea {
+    .about__input-box textarea {
         height: 200px;
     }
 
-    .button .submit {
+    .button-contact .submit {
         font-size: 20px;
         transition: all 0.2s ease;
     }
 
-    .button .submit:hover {
+    .button-contact .submit:hover {
         color: var(--primary-color);
         background-color: var(--box-color);
         border: 2px solid var(--primary-color);

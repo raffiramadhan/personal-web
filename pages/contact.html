@@ -9,48 +9,48 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="../index.html">Raffi Ramadhan</a>
+        <a class="header__logo" href="../index.html">Raffi Ramadhan</a>
 
-        <div class="menubar" tabindex="0">
-            <button class="menu"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
+        <div class="menu" tabindex="0">
+            <button class="menu__bar"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
 
-            <ul class="menulist">
-                <li><a href="../index.html">Beranda</a></li>
-                <li><a href="profile.html">Profil</a></li>
-                <li><a href="about.html">Tentang</a></li>
-                <li><a href="gallery.html">Galeri</a></li>
-                <li><a id="on-menu" href="contact.html">Kontak</a></li>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="../index.html">Beranda</a></li>
+                <li class="menu__item"><a href="profile.html">Profil</a></li>
+                <li class="menu__item"><a href="about.html">Tentang</a></li>
+                <li class="menu__item"><a href="gallery.html">Galeri</a></li>
+                <li class="menu__item"><a id="on-menu" href="contact.html">Kontak</a></li>
             </ul>
         </div>
     </header>
 
     <main class="container">
-        <div class="section-1">
-            <h1>Hubungi Saya</h1>
-            <p>Silahkan kirim pesan, saya akan dengan senang hati membalasnya!</p>
+        <div class="container__hero">
+            <h1 class="container__title">Hubungi Saya</h1>
+            <p class="container__text">Silahkan kirim pesan, saya akan dengan senang hati membalasnya!</p>
         </div>
 
-        <div class="section-2">
-            <div class="s2-box">
-                <div class="cta-container">
+        <div class="about">
+            <div class="about__box">
+                <div class="about__contact">
                     <form action="/contact" method="POST">
-                        <div class="user-details">
-                            <div class="input-box">
+                        <div class="about__user-details">
+                            <div class="about__input-box">
                                 <label for="name">Nama:</label>
                                 <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
                             </div>
                             
-                            <div class="input-box">
+                            <div class="about__input-box">
                                 <label for="email">Email:</label>
                                 <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
                             </div>
 
-                            <div class="input-box">
+                            <div class="about__input-box">
                                 <label for="message">Pesan:</label>
                                 <textarea name="message" id="message" placeholder="Tulis pesan Anda..." required></textarea>
                             </div>
                         </div>
-                        <div class="button">
+                        <div class="button-contact">
                             <button class="submit" type="submit">Kirim Pesan</button>
                         </div>
                     </form>
@@ -60,7 +60,7 @@
     </main>
 
     <footer class="footer">
-        <p>Copyright &copy; 2026 Raffi Ramadhan</p>
+        <p class="footer__text">Copyright &copy; 2026 Raffi Ramadhan</p>
     </footer>
 </body>
 </html>

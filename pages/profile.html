@@ -9,59 +9,59 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="../index.html">Raffi Ramadhan</a>
+        <a class="header__logo" href="../index.html">Raffi Ramadhan</a>
 
-        <div class="menubar" tabindex="0">
-            <button class="menu"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
+        <div class="menu" tabindex="0">
+            <button class="menu__bar"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
 
-            <ul class="menulist">
-                <li><a href="../index.html">Beranda</a></li>
-                <li><a id="on-menu" href="profile.html">Profil</a></li>
-                <li><a href="about.html">Tentang</a></li>
-                <li><a href="gallery.html">Galeri</a></li>
-                <li><a href="contact.html">Kontak</a></li>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="../index.html">Beranda</a></li>
+                <li class="menu__item"><a id="on-menu" href="profile.html">Profil</a></li>
+                <li class="menu__item"><a href="about.html">Tentang</a></li>
+                <li class="menu__item"><a href="gallery.html">Galeri</a></li>
+                <li class="menu__item"><a href="contact.html">Kontak</a></li>
             </ul>
         </div>
     </header>
 
     <main class="container">
-        <div class="section-1">
-            <h1>Profil Saya</h1>
-            <p>Kenali lebih dekat siapa saya dan apa yang saya sukai.</p>
+        <div class="container__hero">
+            <h1 class="container__title">Profil Saya</h1>
+            <p class="container__text">Kenali lebih dekat siapa saya dan apa yang saya sukai.</p>
         </div>
 
-        <div class="section-2">
-            <div class="s2-box">
-                <img class="pp" src="https://raffiramadhan.github.io/pemrograman-web-1-public/images/foto_profil.jpg" alt="profile_picture">
+        <div class="about">
+            <div class="about__box">
+                <img class="about__profile-picture" src="https://raffiramadhan.github.io/pemrograman-web-1-public/images/foto_profil.jpg" alt="profile_picture">
 
-                <h3>Tentang Saya</h3>
-                <p>
-                    Halo! Nama saya <span class="name">Raffi Ramadhan</span>. Saya adalah seorang mahasiswa yang memiliki ketertarikan besar pada dunia teknologi, pemrograman, dan desain web. <br><br>
+                <h3 class="about__title">Tentang Saya</h3>
+                <p class="about__text">
+                    Halo! Nama saya <span id="name">Raffi Ramadhan</span>. Saya adalah seorang mahasiswa yang memiliki ketertarikan besar pada dunia teknologi, pemrograman, dan desain web. <br><br>
 
                     Saya senang bereksperimen dengan HTML, CSS, dan JavaScript untuk menciptakan website yang interaktif dan responsif. Selain itu, saya juga gemar membaca, mendengarkan musik, dan belajar hal baru setiap hari.
                 </p>
 
-                <h3>Data Singkat</h3>
-                <div class="data-container">
-                    <div class="data-item">
-                        <span class="data-icon">👤</span>
-                        <span class="data-title">Nama</span>
-                        <span class="data-desc">Raffi Ramadhan</span>
+                <h3 class="about__title">Data Singkat</h3>
+                <div class="about__data">
+                    <div class="about__data-item">
+                        <span class="about__data-icon">👤</span>
+                        <span class="about__data-title">Nama</span>
+                        <span class="about__data-text">Raffi Ramadhan</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">📍</span>
-                        <span class="data-title">Asal</span>
-                        <span class="data-desc">Indonesia</span>
+                    <div class="about__data-item">
+                        <span class="about__data-icon">📍</span>
+                        <span class="about__data-title">Asal</span>
+                        <span class="about__data-text">Indonesia</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">💡</span>
-                        <span class="data-title">Hobi</span>
-                        <span class="data-desc">Coding, Desain, Membaca</span>
+                    <div class="about__data-item">
+                        <span class="about__data-icon">💡</span>
+                        <span class="about__data-title">Hobi</span>
+                        <span class="about__data-text">Coding, Desain, Membaca</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">🔥</span>
-                        <span class="data-title">Motto</span>
-                        <span class="data-desc">"Rasakan ketakutannya dan tetap lakukan"</span>
+                    <div class="about__data-item">
+                        <span class="about__data-icon">🔥</span>
+                        <span class="about__data-title">Motto</span>
+                        <span class="about__data-text">"Rasakan ketakutannya dan tetap lakukan"</span>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
     </main>
 
     <footer class="footer">
-        <p>Copyright &copy; 2026 Raffi Ramadhan</p>
+        <p class="footer__text">Copyright &copy; 2026 Raffi Ramadhan</p>
     </footer>
 </body>
 </html>

@@ -9,32 +9,32 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="index.html">Raffi Ramadhan</a>
+        <a class="header__logo" href="index.html">Raffi Ramadhan</a>
 
-        <div class="menubar" tabindex="0">
-            <button class="menu"><img src="img/hamburger.png" alt="hamburger_menu" width="25px"></button>
+        <div class="menu" tabindex="0">
+            <button class="menu__bar"><img src="img/hamburger.png" alt="hamburger_menu" width="25px"></button>
 
-            <ul class="menulist">
-                <li><a id="on-menu" href="index.html">Beranda</a></li>
-                <li><a href="pages/profile.html">Profil</a></li>
-                <li><a href="pages/about.html">Tentang</a></li>
-                <li><a href="pages/gallery.html">Galeri</a></li>
-                <li><a href="pages/contact.html">Kontak</a></li>
+            <ul class="menu__list">
+                <li class="menu__item"><a id="on-menu" href="index.html">Beranda</a></li>
+                <li class="menu__item"><a href="pages/profile.html">Profil</a></li>
+                <li class="menu__item"><a href="pages/about.html">Tentang</a></li>
+                <li class="menu__item"><a href="pages/gallery.html">Galeri</a></li>
+                <li class="menu__item"><a href="pages/contact.html">Kontak</a></li>
             </ul>
         </div>
     </header>
 
     <main class="container">
-        <div class="section-1">
-            <h1>Selamat Datang di Web Pribadiku</h1>
-            <p class="on-btn">Tempat saya berbagi cerita, pengalaman, dan karya dalam dunia teknologi.</p>
-            <a class="btn" href="pages/profile.html">Lihat Profil</a>
+        <div class="container__hero">
+            <h1 class="container__title">Selamat Datang di Web Pribadiku</h1>
+            <p class="container__text text--margin">Tempat saya berbagi cerita, pengalaman, dan karya dalam dunia teknologi.</p>
+            <a class="button-primary" href="pages/profile.html">Lihat Profil</a>
         </div>
 
-        <div class="section-2">
-            <div class="s2-box">
-                <h3>Halo, Semua!</h3>
-                <p>
+        <div class="about">
+            <div class="about__box">
+                <h3 class="about__title">Halo, Semua!</h3>
+                <p class="about__text">
                     Ini adalah website pribadi yang saya buat untuk belajar membuat web dengan tampilan menarik dan modern. Di sini kamu bisa menemukan berbagai informasi tentang saya, hobi saya, galeri foto, serta latihan-latihan pemrograman yang telah saya kerjakan. <br><br>
 
                     Semoga web ini dapat memberikan inspirasi bagi kalian yang sedang belajar membuat website juga!
@@ -44,7 +44,7 @@
     </main>
 
     <footer class="footer">
-        <p>Copyright &copy; 2026 Raffi Ramadhan</p>
+        <p class="footer__text">Copyright &copy; 2026 Raffi Ramadhan</p>
     </footer>
 </body>
 </html>

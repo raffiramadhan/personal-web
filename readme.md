@@ -1,3 +1,2 @@
 task:
-1. BEM naming
-2. Efisiensi
+1. Efisiensi

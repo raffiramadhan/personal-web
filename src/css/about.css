@@ -3,20 +3,20 @@
     --background-color: #fff8e8;
 }
 
-.data-container {
+.about__tools {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
-.data-container .data-item {
+.about__tools .about__tools-item {
     padding: 20px;
     background-color: var(--background-color);
     border: 2px solid var(--primary-color);
     border-radius: 10px;
 }
 
-.data-item .data-icon {
+.about__tools-item .about__tools-icon {
     width: 45px;
     height: 80px;
     float: left;
@@ -24,7 +24,7 @@
     font-size: 30px;
 }
 
-.data-item .data-title {
+.about__tools-item .about__tools-title {
     display: block;
     font-weight: bold;
     font-size: 18px;
@@ -36,21 +36,20 @@ h3~div {
 }
 
 @media only screen and (min-width: 992px) {
-    .data-container .data-item {
+    .about__tools .about__tools-item {
         display: inline-block;
         transition: transform 0.4s ease;
     }
     
-    .data-item .data-icon {
-        height: auto;
+    .about__tools-item .about__tools-icon {
         font-size: 32px;
     }
 
-    .data-item .data-title {
+    .about__tools-item .about__tools-title {
         font-size: 20px;
     }
 
-    .data-container .data-item:hover {
+    .about__tools .about__tools-item:hover {
         transform: translateY(-5px);
         box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
     }

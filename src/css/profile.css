@@ -4,8 +4,8 @@
 }
 
 /* Content */
-    /* Section-2 */
-.s2-box .pp {
+    /* About */
+.about__profile-picture {
     align-self: center;
     width: 250px;
     height: 250px;
@@ -14,24 +14,24 @@
     object-fit: cover;
 }
 
-.s2-box .name {
+.about__text #name {
     font-weight: bold;
 }
 
-.data-container {
+.about__data {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
-.data-container .data-item {
+.about__data .about__data-item {
     padding: 20px;
     background-color: var(--background-color);
     border: 2px solid var(--primary-color);
     border-radius: 10px;
 }
 
-.data-item .data-icon {
+.about__data-item .about__data-icon {
     width: 45px;
     height: 50px;
     float: left;
@@ -39,7 +39,7 @@
     font-size: 30px;
 }
 
-.data-item .data-title {
+.about__data-item .about__data-title {
     display: block;
     font-weight: bold;
     font-size: 18px;
@@ -51,21 +51,21 @@ h3~div {
 }
 
 @media only screen and (min-width: 992px) {
-    .data-container .data-item {
+    .about__data .about__data-item {
         display: inline-block;
         transition: transform 0.4s ease;
     }
     
-    .data-item .data-icon {
+    .about__data-item .about__data-icon {
         height: auto;
         font-size: 32px;
     }
 
-    .data-item .data-title {
+    .about__data-item .about__data-title {
         font-size: 20px;
     }
 
-    .data-container .data-item:hover {
+    .about__data .about__data-item:hover {
         transform: translateY(-5px);
         box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
     }

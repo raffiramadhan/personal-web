@@ -9,61 +9,60 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="../index.html">Raffi Ramadhan</a>
+        <a class="header__logo" href="../index.html">Raffi Ramadhan</a>
 
-        <div class="menubar" tabindex="0">
-            <button class="menu"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
+        <div class="menu" tabindex="0">
+            <button class="menu__bar"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
 
-            <ul class="menulist">
-                <li><a href="../index.html">Beranda</a></li>
-                <li><a href="profile.html">Profil</a></li>
-                <li><a id="on-menu" href="about.html">Tentang</a></li>
-                <li><a href="gallery.html">Galeri</a></li>
-                <li><a href="contact.html">Kontak</a></li>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="../index.html">Beranda</a></li>
+                <li class="menu__item"><a href="profile.html">Profil</a></li>
+                <li class="menu__item"><a id="on-menu" href="about.html">Tentang</a></li>
+                <li class="menu__item"><a href="gallery.html">Galeri</a></li>
+                <li class="menu__item"><a href="contact.html">Kontak</a></li>
             </ul>
         </div>
     </header>
 
     <main class="container">
-        <div class="section-1">
-            <h1>Tentang Website Ini</h1>
-            <p>Bagaimana website ini dibuat dan apa tujuannya.</p>
+        <div class="container__hero">
+            <h1 class="container__title">Tentang Website Ini</h1>
+            <p class="container__text">Bagaimana website ini dibuat dan apa tujuannya.</p>
         </div>
 
-        <div class="section-2">
-            <div class="s2-box">
-                <h3>Tujuan Website</h3>
-                <p>
+        <div class="about">
+            <div class="about__box">
+                <h3 class="about__title">Tujuan Website</h3>
+                <p class="about__text">
                     Website ini dibuat sebagai bagian dari latihan membuat web statis menggunakan HTML dan CSS. Tujuannya adalah untuk melatih kemampuan dasar dalam membangun tampilan web yang rapi, konsisten, dan menarik.
                 </p>
 
-                <h3>Teknologi Yang Digunakan</h3>
-                <div class="data-container">
-                    <div class="data-item">
-                        <span class="data-icon">🌐</span>
-                        <span class="data-title">HTML5</span>
-                        <span class="data-desc">Digunakan untuk membangun struktur dasar halaman web.</span>
+                <h3 class="about__title">Teknologi Yang Digunakan</h3>
+                <div class="about__tools">
+                    <div class="about__tools-item">
+                        <span class="about__tools-icon">🌐</span>
+                        <span class="about__tools-title">HTML5</span>
+                        <span class="about__tools-text">Digunakan untuk membangun struktur dasar halaman web.</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">🎨</span>
-                        <span class="data-title">CSS3</span>
-                        <span class="data-desc">Berfungsi untuk mempercantik tampilan dan mengatur layout halaman.</span>
+                    <div class="about__tools-item">
+                        <span class="about__tools-icon">🎨</span>
+                        <span class="about__tools-title">CSS3</span>
+                        <span class="about__tools-text">Berfungsi untuk mempercantik tampilan dan mengatur layout halaman.</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">⚡</span>
-                        <span class="data-title">JavaScript</span>
-                        <span class="data-desc">Memberikan interaktivitas pada elemen web agar lebih dinamis.</span>
+                    <div class="about__tools-item">
+                        <span class="about__tools-icon">⚡</span>
+                        <span class="about__tools-title">JavaScript</span>
+                        <span class="about__tools-text">Memberikan interaktivitas pada elemen web agar lebih dinamis.</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">📱</span>
-                        <span class="data-title">Responsive Design</span>
-                        <span class="data-desc">Membuat tampilan website tetap rapi di berbagai ukuran layar.</span>
+                    <div class="about__tools-item">
+                        <span class="about__tools-icon">📱</span>
+                        <span class="about__tools-title">Responsive Design</span>
+                        <span class="about__tools-text">Membuat tampilan website tetap rapi di berbagai ukuran layar.</span>
                     </div>
-                    <div class="data-item">
-                        <span class="data-icon">💫</span>
-                        <span class="data-title">Modern UI
-</span>
-                        <span class="data-desc">Desain berfokus pada warna hangat, font bersih, dan kesan minimalis.</span>
+                    <div class="about__tools-item">
+                        <span class="about__tools-icon">💫</span>
+                        <span class="about__tools-title">Modern UI</span>
+                        <span class="about__tools-text">Desain berfokus pada warna hangat, font bersih, dan kesan minimalis.</span>
                     </div>
                 </div>
             </div>
@@ -71,7 +70,7 @@
     </main>
 
     <footer class="footer">
-        <p>Copyright &copy; 2026 Raffi Ramadhan</p>
+        <p class="footer__text">Copyright &copy; 2026 Raffi Ramadhan</p>
     </footer>
 </body>
 </html>
