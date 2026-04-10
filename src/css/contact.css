@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #ffc130;
+    --background-color: #fff8e8;
+    --box-color: #ffffff;
+}
+
+.cta-container {
+    padding: 30px;
+    background-color: var(--box-color);
+    border-radius: 10px;
+}
+
+.cta-container form .user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin: 10px 0;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--background-color);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.input-box input {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input-box textarea {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+.button .submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    outline: none;
+    box-shadow: 0 1px 5px rgba(255, 199, 44, 0.815);
+}
+
+.button .submit:focus-within {
+    color: var(--primary-color);
+    background-color: var(--box-color);
+    border: 2px solid var(--primary-color);
+}
+
+@media only screen and (min-width: 992px) {
+    .input-box input,
+    .input-box textarea {
+        font-size: 20px;
+    }
+    
+    .input-box input {
+        height: 50px;
+    }
+
+    .input-box textarea {
+        height: 200px;
+    }
+
+    .button .submit {
+        font-size: 20px;
+        transition: all 0.2s ease;
+    }
+
+    .button .submit:hover {
+        color: var(--primary-color);
+        background-color: var(--box-color);
+        border: 2px solid var(--primary-color);
+    }
+}
