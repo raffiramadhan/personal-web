@@ -1,9 +1,3 @@
-:root {
-    --primary-color: #ffc130;
-    --background-color: #fff8e8;
-    --box-color: #ffffff;
-}
-
 .about__contact {
     padding: 30px;
     background-color: var(--box-color);
