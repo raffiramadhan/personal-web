@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.card__icon {
+    font-size: 30px;
+}
+
+.card__title {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card__text {
+    display: block;
+}

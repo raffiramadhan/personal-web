@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #ffc130;
+    --background-color: #fff8e8;
+}
+
+h3~div {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .about__tools-item {
+        transition: transform 0.4s ease;
+    }
+    
+    .about__tools-icon {
+        font-size: 32px;
+    }
+
+    .about__tools-title {
+        font-size: 20px;
+    }
+
+    .about__tools-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+    }
+}

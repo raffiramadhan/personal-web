@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil - Web Pribadi</title>
-    <link rel="stylesheet" href="../src/css/style.css">
-    <link rel="stylesheet" href="../src/css/profile.css">
+    <link rel="stylesheet" href="../css/base/style.css">
+    <link rel="stylesheet" href="../css/components/box.css">
+    <link rel="stylesheet" href="../css/pages/profile.css">
 </head>
 <body>
     <header class="header">
-        <a class="header__logo" href="../index.html">Raffi Ramadhan</a>
+        <a class="header__logo" href="../../index.html">Raffi Ramadhan</a>
 
         <div class="menu" tabindex="0">
-            <button class="menu__bar"><img src="../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
+            <button class="menu__bar"><img src="../../img/hamburger.png" alt="hamburger_menu" width="25px"></button>
 
             <ul class="menu__list">
-                <li class="menu__item"><a href="../index.html">Beranda</a></li>
+                <li class="menu__item"><a href="../../index.html">Beranda</a></li>
                 <li class="menu__item"><a id="on-menu" href="profile.html">Profil</a></li>
                 <li class="menu__item"><a href="about.html">Tentang</a></li>
                 <li class="menu__item"><a href="gallery.html">Galeri</a></li>
@@ -42,26 +43,34 @@
                 </p>
 
                 <h3 class="about__title">Data Singkat</h3>
-                <div class="about__data">
-                    <div class="about__data-item">
-                        <span class="about__data-icon">👤</span>
-                        <span class="about__data-title">Nama</span>
-                        <span class="about__data-text">Raffi Ramadhan</span>
+                <div class="card">
+                    <div class="card__item">
+                        <span class="card__icon">👤</span>
+                        <div>
+                            <span class="card__title">Nama</span>
+                            <span class="card__text">Raffi Ramadhan</span>
+                        </div>
                     </div>
-                    <div class="about__data-item">
-                        <span class="about__data-icon">📍</span>
-                        <span class="about__data-title">Asal</span>
-                        <span class="about__data-text">Indonesia</span>
+                    <div class="card__item">
+                        <span class="card__icon">📍</span>
+                        <div>
+                            <span class="card__title">Asal</span>
+                            <span class="card__text">Indonesia</span>
+                        </div>
                     </div>
-                    <div class="about__data-item">
-                        <span class="about__data-icon">💡</span>
-                        <span class="about__data-title">Hobi</span>
-                        <span class="about__data-text">Coding, Desain, Membaca</span>
+                    <div class="card__item">
+                        <span class="card__icon">💡</span>
+                        <div>
+                            <span class="card__title">Hobi</span>
+                            <span class="card__text">Coding, Desain, Membaca</span>
+                        </div>
                     </div>
-                    <div class="about__data-item">
-                        <span class="about__data-icon">🔥</span>
-                        <span class="about__data-title">Motto</span>
-                        <span class="about__data-text">"Rasakan ketakutannya dan tetap lakukan"</span>
+                    <div class="card__item">
+                        <span class="card__icon">🔥</span>
+                        <div>
+                            <span class="card__title">Motto</span>
+                            <span class="card__text">"Rasakan ketakutannya dan tetap lakukan"</span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #ffc130;
+    --background-color: #fff8e8;
+}
+
+/* Content */
+    /* About */
+.about__profile-picture {
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    object-fit: cover;
+}
+
+.about__text #name {
+    font-weight: bold;
+}
+
+h3~div {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .about__data-item {
+        transition: transform 0.4s ease;
+    }
+    
+    .about__data-icon {
+        font-size: 32px;
+    }
+
+    .about__data-title {
+        font-size: 20px;
+    }
+
+    .about__data-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+    }
+}
