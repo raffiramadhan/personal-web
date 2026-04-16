@@ -209,11 +209,11 @@ body {
 
         /* About */
     .about {
-        padding: 10% 20%;
+        padding: 50px 20%;
     }
-    
+
     .about__box {
-        padding: 35px;
+        padding: 45px;
     }
 
     .about__title {

@@ -1,29 +1,10 @@
 .about__image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 15px;
 }
 
 .about__image-item img {
-    width: auto;
     border-radius: 10px;
-    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
-}
-
-@media only screen and (min-width: 992px) {
-    .about__image {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .about__image-item img {
-        display: inline-block;
-        transition: transform 0.4s ease;
-    }
-
-    .about__image-item img:hover {
-        transform: scale(1.05);
-    }
 }
